@@ -1,5 +1,5 @@
 //given an array, find the greatest and least sum
-//by adding together all but one value in the array.
+//by adding together all but one value in the given array.
 
 function miniMaxSum(arr) {
   arr = arr.sort((a, b) => a - b);
